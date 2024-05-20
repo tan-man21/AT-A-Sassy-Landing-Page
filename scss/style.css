@@ -28,7 +28,7 @@
 }
 
 .btn-secondary {
-  background-color: #a2d0fc;
+  background-color: #bcdaf7;
   color: black;
 }
 
@@ -55,6 +55,40 @@ a {
 .hero {
   background-color: #000814;
   color: white;
+}
+.hero nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero nav a {
+  color: white;
+}
+.hero nav a:hover {
+  color: #bcdaf7;
+}
+.hero ul {
+  list-style: none;
+  display: flex;
+}
+.hero li {
+  padding: 15px;
+}
+.hero-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.hero-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.hero img {
+  width: 50%;
 }
 
 .m-1 {
@@ -135,6 +169,4 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
